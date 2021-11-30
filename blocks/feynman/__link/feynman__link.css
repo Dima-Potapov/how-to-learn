@@ -1,0 +1,21 @@
+.feynman__link {
+  color: #2f80ed;
+  text-decoration: none;
+  line-height: 51px;
+  font-size: 36px;
+  font-weight: normal;
+  right: 48px;
+  z-index: 1;
+  position: absolute;
+  top: 50%;
+  transition-duration: .2s;
+}
+
+.feynman__link::after {
+  content: ' \279D';
+}
+
+.feynman__link:hover {
+  opacity: .6;
+  transition-timing-function: linear;
+}

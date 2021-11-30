@@ -1,0 +1,19 @@
+.khan__buy-link {
+  color: #2f80ed;
+  text-decoration: none;
+  line-height: 42px;
+  font-size: 30px;
+  font-weight: normal;
+  align-self: flex-start;
+  transition-duration: .2s;
+  padding-left: 48px;
+}
+
+.khan__buy-link::after {
+  content: ' \279D';
+}
+
+.khan__buy-link:hover {
+  opacity: .6;
+  transition-timing-function: linear;
+}
